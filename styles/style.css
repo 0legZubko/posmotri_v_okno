@@ -144,6 +144,7 @@ ol {
   position: relative;
   max-height: 298px;
   overflow-y: scroll;
+  overflow-x: clip;
 }
 
 .content__list-item {
@@ -200,6 +201,7 @@ ol {
   position: relative;
   color: #fff;
   text-decoration: none;
+  min-width: 394px;
 }
 
 .visually-hidden {
@@ -289,12 +291,12 @@ ol {
 }
 
 .button:active,
-.content__video-card:active {
+.content__card-link:active {
   background-color: #545050;
 }
 
 .button:hover,
-.content__video-card:hover {
+.content__card-link:hover {
   text-decoration: underline;
 }
 
