@@ -42,7 +42,7 @@ ol {
 
 .content {
   display: grid;
-  align-items: flex-end;
+  align-items: end;
   grid-template-columns: 2fr 1fr;
   gap: 30px;
   margin: 133px 30px;
@@ -149,6 +149,7 @@ ol {
   display: flex;
   flex-direction: column;
   width: 399px;
+  height: 534px;
   justify-content: stretch;
   align-items: stretch;
 }
